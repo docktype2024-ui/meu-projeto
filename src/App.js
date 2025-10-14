@@ -1,6 +1,7 @@
 import Frase from './components/frase.js' 
 import SayMyName from './components/SayMyName.js'
 import Pessoa from './components/Pessoa.js'
+import List from './components/List.js'
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
   return (
     <div className="App">
       <Frase/>
+      <Frase/>
+      <List/>
       <h1>Testando css</h1>
       <SayMyName nome="Diogo"/>
       <SayMyName nome={nome}/>
